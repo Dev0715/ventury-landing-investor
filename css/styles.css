@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+  background-color: black;
+}
+
+p {
+  margin: 0px;
+}
+
+/* Global Properties */
+
+.green-gradient {
+  background: var(--Gradient, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.cta-button {
+  display: flex;
+  width: 346px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--1, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
+}
+
+/* Specific Properties */
+
+.hero-container {
+  width: 100%;
+  padding: 80px 114px 80px 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 64px;
+}
+
+.hero-unlock {
+  max-width: 1086px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+}
+
+.hero-unlock > .unlock-title {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 83.2px */
+}
+
+.hero-unlock > .unlock-description {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 26px */
+}
+
+.users-show {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0 24px 0;
+}
+
+.users-show-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.users-number {
+  max-width: 88px;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
+  background: linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.splitter-vertical {
+  width: 1px;
+  height: 72px;
+  background: linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%);
+}
+
+.users-show-right {
+  max-width: 279px;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 28.8px */
+  background: var(--1, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-payment-options {
+  display: flex;
+  align-items: flex-start;
+  gap: 104px;
+  opacity: 0.6;
+}
