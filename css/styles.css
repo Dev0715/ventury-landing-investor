@@ -30,6 +30,7 @@ p {
 .hero-container {
   width: 100%;
   padding: 80px 114px 80px 114px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,11 +133,24 @@ p {
 /* Specific Properties for FEATURES */
 
 .features-container {
+  width: 100%;
+  padding: 210px 161px 220px 156px;
+  background: #1F1F1F;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
-.features-title {
+/* Reason Sub-Section */
+
+.features-reason {
+  margin-bottom: 104px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+}
+
+.reason-title {
   color: #FFF;
   font-family: Poppins;
   font-size: 48px;
@@ -145,7 +159,7 @@ p {
   line-height: 130%; /* 62.4px */
 }
 
-.feature-green-gradient {
+.reason-green-gradient {
   background: var(--1, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -157,14 +171,13 @@ p {
   line-height: 130%;
 }
 
-.feature-reason {
+.reason-wrapper {
   display: flex;
   flex-wrap: nowrap;
   gap: 48px;
 }
 
 .reason-left {
-  max-width: 427px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
@@ -200,12 +213,15 @@ p {
 
 /* Benefits Sub-Section */
 
-.feature-benefits {
+.features-benefits {
+  margin-bottom: 176px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .benefits-title {
+  margin-bottom: 64px;
   color: #FFF;
   text-align: center;
   font-family: Poppins;
@@ -228,6 +244,7 @@ p {
 }
 
 .benefits-wrapper {
+  margin-bottom: 104px;
   display: flex;
   gap: 40px;
 }
@@ -266,8 +283,15 @@ p {
 
 /* Future Sub-Section */
 
+.features-future {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .future-title {
   max-width: 685px;
+  margin-bottom: 40px;
   color: #FFF;
   text-align: center;
   font-family: Poppins;
@@ -295,10 +319,14 @@ p {
 }
 
 .future-item {
-  padding: 40px;
   display: flex;
+  padding: 40px;
   flex-direction: column;
-  row-gap: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 4px;
+  border: 1px solid #383838;
+  background: #242424;
 }
 
 .future-item > img {
