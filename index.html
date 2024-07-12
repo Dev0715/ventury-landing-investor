@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.3.2/build/css/intlTelInput.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -220,12 +224,17 @@
 
             <div class="future-wrapper">
               <div class="future-item">
-                <img src="assets/images/features/future-1.svg" alt="future-1" />
-                <p class="future-item-title">Open a Real Account Now:</p>
-                <p class="future-item-description">
-                  Don’t miss out on the opportunity to multiply your money. Join
-                  VenturyFX and start trading in minutes.
-                </p>
+                <div class="future-item-wrapper">
+                  <img
+                    src="assets/images/features/future-1.svg"
+                    alt="future-1"
+                  />
+                  <p class="future-item-title">Open a Real Account Now:</p>
+                  <p class="future-item-description">
+                    Don’t miss out on the opportunity to multiply your money.
+                    Join VenturyFX and start trading in minutes.
+                  </p>
+                </div>
                 <button class="future-cta">
                   Open a Real Account Now
                   <img
@@ -235,13 +244,18 @@
                 </button>
               </div>
               <div class="future-item">
-                <img src="assets/images/features/future-2.svg" alt="future-2" />
-                <p class="future-item-title">Start Trading in Minutes</p>
-                <p class="future-item-description">
-                  Register now and gain immediate access to global markets.
-                  Transform your financial future with expert tools and
-                  resources.
-                </p>
+                <div class="future-item-wrapper">
+                  <img
+                    src="assets/images/features/future-2.svg"
+                    alt="future-2"
+                  />
+                  <p class="future-item-title">Start Trading in Minutes</p>
+                  <p class="future-item-description">
+                    Register now and gain immediate access to global markets.
+                    Transform your financial future with expert tools and
+                    resources.
+                  </p>
+                </div>
                 <button class="future-cta">
                   START TRADING IN MINUTES
                   <img
@@ -251,13 +265,18 @@
                 </button>
               </div>
               <div class="future-item">
-                <img src="assets/images/features/future-3.svg" alt="future-3" />
-                <p class="future-item-title">VIP Access:</p>
-                <p class="future-item-description">
-                  Sign up through this campaign and enjoy exclusive benefits
-                  including zero spread operations, no commissions, and VIP
-                  access to the TradingView app.
-                </p>
+                <div class="future-item-wrapper">
+                  <img
+                    src="assets/images/features/future-3.svg"
+                    alt="future-3"
+                  />
+                  <p class="future-item-title">VIP Access:</p>
+                  <p class="future-item-description">
+                    Sign up through this campaign and enjoy exclusive benefits
+                    including zero spread operations, no commissions, and VIP
+                    access to the TradingView app.
+                  </p>
+                </div>
                 <button class="future-cta">
                   Get Your Bonus PacK
                   <img
@@ -296,7 +315,7 @@
 
       <section id="singup">
         <div class="signup-container">
-          <div class="singup-wrapper">
+          <div class="signup-wrapper">
             <div class="signup-left-wrapper">
               <p class="signup-title">
                 <span class="signup-green-gradient"> Have Any Questions? </span>
@@ -309,11 +328,28 @@
             </div>
             <form>
               <div class="signup-form">
-                <input type="text" class="signup-text" />
-                <input type="text" class="signup-text" />
-                <input type="text" class="signup-email" />
-                <input type="text" class="signup-password" />
-                <input type="text" class="signup-phone" />
+                <input
+                  type="text"
+                  placeholder="First Name*"
+                  class="signup-text"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name*"
+                  class="signup-text"
+                />
+                <input type="text" placeholder="E-mail*" class="signup-email" />
+                <input
+                  type="password"
+                  placeholder="Password*"
+                  class="signup-password"
+                />
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  class="signup-phone"
+                  id="phone-number"
+                />
                 <button type="submit" class="signup-submit">Submit</button>
               </div>
             </form>
@@ -356,5 +392,13 @@
     <footer></footer>
 
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.3.2/build/js/intlTelInput.min.js"></script>
+    <script>
+      const input = document.querySelector("#phone-number");
+      window.intlTelInput(input, {
+        utilsScript:
+          "https://cdn.jsdelivr.net/npm/intl-tel-input@23.3.2/build/js/utils.js",
+      });
+    </script>
   </body>
 </html>
