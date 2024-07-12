@@ -16,13 +16,18 @@ p {
 
 .cta-button {
   display: flex;
-  width: 346px;
   padding: 16px 24px;
   justify-content: center;
   align-items: center;
   gap: 16px;
   border-radius: 4px;
   background: var(--1, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
+  color: var(--Foundation-Grey-G900, #1F1F1F);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
 }
 
 /* Specific Properties for HERO */
@@ -92,7 +97,7 @@ p {
 }
 
 .users-number {
-  max-width: 88px;
+  max-width: 90px;
   font-family: Lato;
   font-size: 18px;
   font-style: normal;
@@ -250,6 +255,7 @@ p {
 }
 
 .benefits-item {
+  width: 25%;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -319,6 +325,7 @@ p {
 }
 
 .future-item {
+  width: 33.33%;
   display: flex;
   padding: 40px;
   flex-direction: column;
