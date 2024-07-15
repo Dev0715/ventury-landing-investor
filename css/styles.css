@@ -162,7 +162,7 @@ input {
 }
 
 .users-show-right {
-  max-width: 279px;
+  max-width: 288px;
   font-family: Lato;
   font-size: 24px;
   font-style: normal;
@@ -441,7 +441,7 @@ input {
 .future-cta {
   padding: 0;
   display: flex;
-  width: 346px;
+  /* width: 346px; */
   max-width: 100%;
   align-items: center;
   gap: 16px;
