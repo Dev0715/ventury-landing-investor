@@ -40,6 +40,10 @@ input {
   margin-bottom: 28px;
 }
 
+.iti__selected-dial-code {
+  color: white;
+}
+
 /* Global Properties */
 
 .cta-button {
@@ -194,11 +198,14 @@ input {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* Reason Sub-Section */
 
 .features-reason {
+  max-width: 1411px;
+  width: 100%;
   margin-bottom: 104px;
   display: flex;
   flex-direction: column;
@@ -283,6 +290,8 @@ input {
 /* Benefits Sub-Section */
 
 .features-benefits {
+  max-width: 1411px;
+  width: 100%;
   margin-bottom: 176px;
   display: flex;
   flex-direction: column;
@@ -354,6 +363,7 @@ input {
 /* Future Sub-Section */
 
 .features-future {
+  max-width: 1416px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -402,6 +412,12 @@ input {
   flex-direction: column;
   gap: 24px;
   justify-content: space-between;
+}
+
+.future-item:hover {
+  border-radius: 4px;
+  border: 1px solid #8CC63F;
+  background: #242424;
 }
 
 .future-item-wrapper {
@@ -621,7 +637,15 @@ input {
 
 /* Specific features for FOOTER */
 
+#footer {
+  width: 100%;
+  background: #1F1F1F;
+  display: flex;
+  justify-content: center;
+}
+
 .footer-container {
+  max-width: 1728px;
   padding: 144px 150px 144px 150px;
   width: 100%;
   box-sizing: border-box;

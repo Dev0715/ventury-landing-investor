@@ -359,7 +359,7 @@
                 />
                 <input
                   type="text"
-                  placeholder="12 345 678"
+                  placeholder="123 456 7890"
                   class="signup-phone"
                   id="phone-number"
                 />
@@ -431,6 +431,8 @@
     <script>
       const input = document.querySelector("#phone-number");
       window.intlTelInput(input, {
+        separateDialCode: true,
+        initialCountry: "us",
         utilsScript:
           "https://cdn.jsdelivr.net/npm/intl-tel-input@23.3.2/build/js/utils.js",
       });
