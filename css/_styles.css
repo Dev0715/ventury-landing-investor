@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
 main {
@@ -9,7 +9,7 @@ main {
 }
 
 p {
-  margin: 0;
+  margin: 0px;
 }
 
 button {
@@ -60,12 +60,7 @@ input {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
-}
-
-.cta-button:hover {
-  background: var(--1, linear-gradient(90deg, #7FD6A8 -15.89%, #FFD84E 118.84%));
-  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
+  line-height: 28px; /* 155.556% */
 }
 
 /* Specific Properties for HERO */
@@ -73,9 +68,8 @@ input {
 .hero-container {
   position: relative;
   width: 100%;
-  padding: 80px 114px;
+  padding: 80px 114px 80px 114px;
   box-sizing: border-box;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +84,7 @@ input {
   height: 100%;
   background-image: linear-gradient(0deg, rgba(31, 31, 31, 0.95) 50%, rgba(31, 31, 31, 0.95) 50%), url("../assets/images/hero/background.jpg");
   background-position: 50%;
-  background-size: cover;
+  background-size: 134.309% 142.386%, cover;
   background-repeat: no-repeat;
   background-color: lightgray;
 }
@@ -116,7 +110,7 @@ input {
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 130%; /* 83.2px */
 }
 
 .hero-green-gradient {
@@ -136,14 +130,14 @@ input {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 130%; /* 26px */
 }
 
 .users-show {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 24px 0;
+  padding: 24px 0 24px 0;
 }
 
 .users-show-left {
@@ -158,7 +152,7 @@ input {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%;
+  line-height: 120%; /* 21.6px */
   background: linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -177,7 +171,7 @@ input {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%;
+  line-height: 120%; /* 28.8px */
   background: var(--1, linear-gradient(90deg, #FFD84E -15.89%, #7FD6A8 118.84%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -199,7 +193,7 @@ input {
 
 .features-container {
   width: 100%;
-  padding: 210px 161px;
+  padding: 210px 161px 220px 156px;
   background: #1B1B1B;
   box-sizing: border-box;
   display: flex;
@@ -224,7 +218,7 @@ input {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 130%; /* 62.4px */
 }
 
 .reason-green-gradient {
@@ -233,6 +227,7 @@ input {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Poppins;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
@@ -260,10 +255,13 @@ input {
 
 .reason-item-title > p {
   color: var(--Foundation-Grey-G0, #FFF);
+
+  /* H6/medium */
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
 }
 
 .reason-item-description {
@@ -273,7 +271,7 @@ input {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 170%;
+  line-height: 170%; /* 30.6px */
   opacity: 0.8;
 }
 
@@ -308,7 +306,7 @@ input {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 130%; /* 62.4px */
 }
 
 .benefits-green-gradient {
@@ -317,6 +315,7 @@ input {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Poppins;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
@@ -341,10 +340,13 @@ input {
 
 .benefits-item-title {
   color: var(--Foundation-Grey-G0, #FFF);
+
+  /* H6/medium */
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
 }
 
 .benefits-item-description {
@@ -354,14 +356,14 @@ input {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 170%;
+  line-height: 170%; /* 30.6px */
   opacity: 0.8;
 }
 
 /* Future Sub-Section */
 
 .features-future {
-  max-width: 1411px;
+  max-width: 1416px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -386,6 +388,7 @@ input {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Poppins;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
@@ -422,7 +425,11 @@ input {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 24px;
+}
+
+.future-item-wrapper > img {
+  width: fit-content;
 }
 
 .future-item-title {
@@ -465,15 +472,11 @@ input {
   -webkit-text-fill-color: transparent;
 }
 
-.future-cta:hover {
-  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
-}
-
-/* Finisher */
+/* Specific features for FINISHER */
 
 .finisher-container {
   position: relative;
-  padding: 144px 0;
+  padding: 144px 0 144px 0;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -530,8 +533,7 @@ input {
 /* Specific features for SIGNUP */
 
 .signup-container {
-  padding: 168px 0;
-  box-sizing: border-box;
+  padding: 168px 0 168px 0;
   background: #1B1B1B;
   display: flex;
   justify-content: center;
@@ -539,7 +541,6 @@ input {
 
 .signup-wrapper {
   max-width: 1200px;
-  width: 100%;
   display: flex;
   gap: 126px;
 }
@@ -634,11 +635,6 @@ input {
   line-height: 34px; /* 170% */
 }
 
-.signup-form > button:hover {
-  background: var(--1, linear-gradient(90deg, #7FD6A8 -15.89%, #FFD84E 118.84%));
-  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
-}
-
 /* Specific features for FOOTER */
 
 #footer {
@@ -650,7 +646,7 @@ input {
 
 .footer-container {
   max-width: 1728px;
-  padding: 144px 150px;
+  padding: 144px 150px 144px 150px;
   width: 100%;
   box-sizing: border-box;
   background: #1F1F1F;
@@ -698,61 +694,90 @@ input {
   line-height: 150%; /* 27px */
 }
 
-/* Responsive Design */
+@media (max-width: 1368px) {
 
-@media (max-width: 1440px) {
-  .hero-container {
-    padding: 160px 120px;
-    row-gap: 48px;
-  }
+  /* Features */
 
   .features-container {
-    padding: 160px 120px;
+    padding: 100px 60px 100px 60px;
   }
 
-  .features-reason {
-    row-gap: 48px;
+  .reason-wrapper {
+    width: 100%;
+    flex-direction: column;
   }
 
-  .features-benefits {
-    margin-bottom: 144px;
+  .reason-left {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .reason-item {
+    width: 45%;
+  }
+
+  .reason-right {
+    background-image: none;
+  }
+
+  .reason-right > .reason-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Benefits */
+
+  .benefits-wrapper {
+    gap: 0;
+    row-gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .benefits-item {
+    width: 45%;
   }
 
   /* Future */
 
   .future-wrapper {
+    gap: 0;
+    row-gap: 40px;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .future-item {
-    width: calc(50% - 12px);
+    width: 47%;
   }
 
   /* Signup */
 
   .signup-container {
-    padding: 80px 64px;
+    padding: 120px 60px 120px 60px;
   }
 
-  /* Footer */
-
-  .footer-container {
-    padding: 80px 64px;
+  .signup-wrapper {
+    flex-direction: column;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 968px) {
   .hero-container {
-    padding: 120px 80px;
-    row-gap: 32px;
+    padding: 80px 60px 80px 60px;
   }
 
   .hero-unlock > .unlock-title {
     font-size: 48px;
   }
 
-  .users-show {
-    gap: 16px;
+  .hero-image {
+    width: 100%;
   }
 
   .hero-payment-options {
@@ -767,35 +792,30 @@ input {
     justify-content: space-between;
   }
 
-  .features-container {
-    padding: 120px 80px;
+  /* Feature */
+
+  /* Reason */
+
+  .reason-item {
+    width: 100%;
   }
 
-  .reason-wrapper {
-    flex-direction: column;
-    gap: 32px;
+  /* Future */
+
+  .future-item {
+    width: 100%;
   }
 
-  .reason-left {
-    min-width: 100%;
-    max-width: 100%;
-  }
+  /* Finisher */
 
   .finisher-container {
-    padding: 64px 48px;
-  }
-
-  /* SignUp */
-
-  .signup-wrapper {
-    flex-direction: column;
-    gap: 60px;
+    padding: 60px 20px 60px 20px;
   }
 
   /* Footer */
 
   .footer-container {
-    padding: 64px 48px;
+    padding: 100px 60px 100px 60px;
   }
 
   .footer-payment-wrapper {
@@ -811,148 +831,71 @@ input {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .hero-container {
-    padding: 100px 60px;
+    padding: 60px 20px 60px 20px;
   }
 
   .hero-unlock > .unlock-title {
-    font-size: 36px;
-  }
-
-  .hero-unlock > .unlock-description {
-    font-size: 18px;
+    font-size: 40px;
   }
 
   .users-show {
     flex-direction: column;
-    gap: 12px;
   }
 
+  .splitter-vertical {
+    display: none;
+  }
+
+  /* Feature */
+
   .features-container {
-    padding: 100px 60px;
+    padding: 60px 20px 60px 20px;
   }
 
   .reason-title {
-    font-size: 36px;
-  }
-
-  .reason-wrapper {
-    gap: 24px;
+    font-size: 40px;
   }
 
   .features-benefits {
-    margin-bottom: 120px;
+    margin-bottom: 104px;
   }
 
   .benefits-title {
-    font-size: 36px;
-  }
-
-  .benefits-wrapper {
-    flex-direction: column;
-    gap: 24px;
+    font-size: 40px;
   }
 
   .benefits-item {
     width: 100%;
   }
 
-  /* Future */
-
   .future-title {
-    font-size: 36px;
+    font-size: 40px;
   }
 
-  .future-item {
-    width: 100%;
-  }
-
-  /* Finisher */
-
-  .finisher-title {
-    font-size: 36px;
-  }
-
-  /* SignUp */
+  /* Signup */
 
   .signup-container {
-    padding: 48px 32px;
-  }
-
-  .signup-title {
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-container {
-    padding: 32px 16px;
-    row-gap: 24px;
-  }
-
-  .hero-unlock > .unlock-title {
-    font-size: 28px;
-  }
-
-  .hero-unlock > .unlock-description {
-    font-size: 16px;
-  }
-
-  .hero-payment-options-resized {
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-  }
-
-  .features-container {
-    padding: 80px 40px;
-  }
-
-  .reason-title {
-    font-size: 28px;
-  }
-
-  .reason-wrapper {
-    gap: 16px;
-  }
-
-  .benefits-title {
-    font-size: 28px;
-  }
-
-  /* Future */
-
-  .future-title {
-    font-size: 28px;
-  }
-
-  /* Finisher */
-
-  .finisher-title {
-    /* font-size: 28px; */
-  }
-
-  /* SignUp */
-
-  .signup-container {
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
     height: 100vh;
   }
 
   .signup-wrapper {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     gap: 0;
   }
 
   .signup-title {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   /* Footer */
 
-  .footer-payment-wrapper-resized {
-    flex-direction: column;
-    gap: 24px;
+  .footer-container {
+    padding: 100px 20px 100px 20px;
   }
 }
