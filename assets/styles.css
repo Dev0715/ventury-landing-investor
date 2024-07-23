@@ -1212,6 +1212,10 @@ input {
 
   /* Signup */
 
+  .signup-wrapper {
+    gap: 48px;
+  }
+
   .close-button > img {
     width: 32px;
     cursor: pointer;
