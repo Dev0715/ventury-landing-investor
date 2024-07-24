@@ -999,7 +999,7 @@ input {
 
   .signup-left-wrapper > img {
     display: block;
-    height: 28px;
+    /* height: 28px; */
   }
 
   .signup-description {
