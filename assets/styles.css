@@ -37,7 +37,8 @@ input {
 
 .iti {
   font-family: Inter;
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
+  margin-bottom: 12px;
 }
 
 .iti__selected-dial-code {
@@ -621,9 +622,11 @@ input {
 }
 
 .signup-container {
+  width: 100%;
   height: 100%;
   overflow-y: auto;
-  padding: 168px 0;
+  /* padding: 168px 0; */
+  padding: 32px 0;
   box-sizing: border-box;
   background: #1B1B1B;
   display: flex;
@@ -633,6 +636,7 @@ input {
 .signup-wrapper {
   max-width: 1200px;
   width: 100%;
+  height: fit-content;
   display: flex;
   align-items: center;
   gap: 126px;
@@ -689,7 +693,8 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  /* gap: 28px; */
+  gap: 12px;
 }
 
 .signup-form-title {
@@ -761,10 +766,12 @@ input {
 
 .signup-form input {
   width: 100%;
-  height: 60px;
+  /* height: 60px; */
+  height: 48px;
   padding: 14px 24px 14px 24px;
   box-sizing: border-box;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: 12px;
   background: transparent;
   border-radius: 6px;
   border: 1px solid rgba(217, 217, 217, 0.29);
