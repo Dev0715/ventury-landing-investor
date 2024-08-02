@@ -35,52 +35,111 @@
 
           <img class="logo" src="assets/images/logo_pt.svg" alt="logo" />
 
-          <div class="hero-unlock">
-            <p class="unlock-title">
-              Desbloqueie o Acesso VIP ao App de Trading da
-              <span class="hero-green-gradient"> Ventury </span>
-            </p>
-            <p class="unlock-description">
-              Obtenha <strong>5</strong> operações com
-              <strong>0</strong> spread, <strong>0</strong> comissões <br />
-              e um bônus de depósito de <strong>250</strong>%!<br />
-              Abra sua conta agora!
-            </p>
-            <div class="users-show">
-              <div class="users-show-left">
-                <img
-                  class="users-face"
-                  src="assets/images/hero/faces.svg"
-                  alt="faces"
-                />
-                <p class="users-number">
-                  +81,726<br />
-                  usuários
-                </p>
-              </div>
-              <div class="splitter-vertical"></div>
-              <div class="users-show-right">
-                Junte-se a milhares de traders de sucesso.
-              </div>
-            </div>
-            <img
-              class="hero-image"
-              src="assets/images/hero/hero-image-expanded-pt.svg"
-              alt="hero-image"
-            />
-            <img
-              class="hero-image-mobile"
-              src="assets/images/hero/hero-image-expanded-mobile-pt.svg"
-              alt="hero-image"
-            />
-            <a class="cta-button" href="#signup">
-              ABRA UMA CONTA REAL AGORA
+          <div class="unlock-container">
+            <div class="hero-unlock">
+              <p class="unlock-title">
+                Desbloqueie o Acesso VIP ao App de Trading da
+                <span class="hero-green-gradient"> Ventury </span>
+              </p>
+              <p class="unlock-description">
+                Obtenha <strong>5</strong> operações com
+                <strong>0</strong> spread, <strong>0</strong> comissões <br />
+                e um bônus de depósito de <strong>250</strong>%!<br />
+                Abra sua conta agora!
+              </p>
               <img
-                class="arrow-right"
-                src="assets/images/arrow-right.svg"
-                alt="arrow-right"
+                class="hero-image"
+                src="assets/images/hero/hero-image-desktop-pt.svg"
+                alt="hero-image"
               />
-            </a>
+              <img
+                class="hero-image-mobile"
+                src="assets/images/hero/hero-image-expanded-mobile-pt.svg"
+                alt="hero-image"
+              />
+              <div class="users-show">
+                <div class="users-show-left">
+                  <img
+                    class="users-face"
+                    src="assets/images/hero/faces.svg"
+                    alt="faces"
+                  />
+                  <p class="users-number">
+                    +81,726<br />
+                    usuários
+                  </p>
+                </div>
+                <div class="splitter-vertical"></div>
+                <div class="users-show-right">
+                  Junte-se a milhares de traders de sucesso.
+                </div>
+              </div>
+              <!-- <a class="cta-button" href="#signup">
+                ABRA UMA CONTA REAL AGORA
+                <img
+                  class="arrow-right"
+                  src="assets/images/arrow-right.svg"
+                  alt="arrow-right"
+                />
+              </a> -->
+            </div>
+            <form id="signup">
+              <div class="signup-form-wrapper">
+                <img src="assets/images/signup-logo-pt.svg" alt="signup-logo" />
+                <p class="signup-form-title">
+                  Ganhe um bônus de <span>250%</span> com seu depósito
+                </p>
+                <div class="signup-form-description-wrapper">
+                  <p class="signup-form-description-top">
+                    Registre-se hoje para
+                  </p>
+                  <div class="signup-form-description-tag-wrapper">
+                    <p>5 Operações com 0 Spread!</p>
+                    <p>0 Comissões!</p>
+                    <p>Bônus de Depósito de 250%</p>
+                  </div>
+                  <p class="signup-form-description-bottom">
+                    Negocie de maneira mais inteligente!
+                  </p>
+                </div>
+                <img
+                  class="hero-image-mobile"
+                  src="assets/images/hero/hero-image-mobile-es.svg"
+                  alt="hero-image"
+                />
+                <div class="signup-form">
+                  <input
+                    type="text"
+                    placeholder="Primeiro nome*"
+                    class="signup-text"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Último nome*"
+                    class="signup-text"
+                  />
+                  <input
+                    type="text"
+                    placeholder="E-mail*"
+                    class="signup-email"
+                  />
+                  <input
+                    type="password"
+                    placeholder="Senha*"
+                    class="signup-password"
+                  />
+                  <input
+                    type="text"
+                    placeholder="e.g. 12 345 678"
+                    class="signup-phone"
+                    id="phone-number"
+                  />
+                  <button type="button" class="signup-submit">
+                    Registre-se
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
 
           <div class="hero-payment-options">
@@ -329,7 +388,7 @@
               aqui para ajudar em cada passo do caminho. Receba atendimento
               personalizado e orientação para alcançar suas metas financeiras.
             </p>
-            <a href="#signup" class="cta-button">
+            <a href="#signup" class="cta-button" style="font-size: 11px">
               TRANSFORME SUA VIDA COM A VENTURY
               <img
                 class="arrow-right"
@@ -341,7 +400,7 @@
         </div>
       </section>
 
-      <section id="signup" class="signup-popup">
+      <section class="signup-popup">
         <div class="close-button" id="close-button">
           <img src="assets/images/close.svg" alt="close" />
         </div>
@@ -357,58 +416,6 @@
               <p class="signup-description">Abra sua conta com um clique</p>
               <img src="assets/images/signup-logo-pt.svg" alt="signup-logo" />
             </div>
-            <form>
-              <div class="signup-form-wrapper">
-                <img src="assets/images/signup-logo-pt.svg" alt="signup-logo" />
-                <p class="signup-form-title">
-                  Ganhe um bônus de 250% com seu depósito
-                </p>
-                <div class="signup-form-description-wrapper">
-                  <p class="signup-form-description-top">
-                    Registre-se hoje para
-                  </p>
-                  <div class="signup-form-description-tag-wrapper">
-                    <p>5 Operações com 0 Spread!</p>
-                    <p>0 Comissões!</p>
-                    <p>Bônus de Depósito de 250%</p>
-                  </div>
-                  <p class="signup-form-description-bottom">
-                    Negocie de maneira mais inteligente!
-                  </p>
-                </div>
-                <div class="signup-form">
-                  <input
-                    type="text"
-                    placeholder="Primeiro nome*"
-                    class="signup-text"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Último nome*"
-                    class="signup-text"
-                  />
-                  <input
-                    type="text"
-                    placeholder="E-mail*"
-                    class="signup-email"
-                  />
-                  <input
-                    type="password"
-                    placeholder="Senha*"
-                    class="signup-password"
-                  />
-                  <input
-                    type="text"
-                    placeholder="e.g. 12 345 678"
-                    class="signup-phone"
-                    id="phone-number"
-                  />
-                  <button type="button" class="signup-submit">
-                    Registre-se
-                  </button>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </section>
